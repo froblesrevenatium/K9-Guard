@@ -1,6 +1,6 @@
 # CLAUDE.md — K9 Guard (dbwatch)
 
-Guía para modificar la app con Claude Code. El manual de uso está en `README.md`.
+Guía para modificar la app con Claude Code. El manual de uso está en `MANUAL.md`; `README.md` solo trae la instalación.
 
 ## Qué es
 
@@ -28,7 +28,7 @@ tail -f ~/.dbwatch/app.log                # log de la app abierta desde Finder
 
 ## Convenciones del código
 
-- **Sin comentarios en el código** (regla del usuario): ni encabezados, ni docstrings, ni de línea. La documentación vive aquí y en el README.
+- **Sin comentarios en el código** (regla del usuario): ni encabezados, ni docstrings, ni de línea. La documentación vive aquí y en el MANUAL.
 - Textos de la interfaz y mensajes de error **en español**; nombres de identificadores en inglés.
 - Fechas visibles: `timestampLayout = "2006-01-02 15:04:05"`.
 - Antes de editar, leer el archivo vecino e imitar su estilo. Archivos chicos por responsabilidad (ver tabla).
